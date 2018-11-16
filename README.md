@@ -15,6 +15,7 @@ Install through terminal : `sudo apt-get install wkhtmltopdf`
 
 #### Windows
 Download and install the .msi : [https://wkhtmltopdf.org/downloads.html](https://wkhtmltopdf.org/downloads.html)
+
 Then add install location `C:\Program Files\wkhtmltopdf\bin` to system **Path**.
 
 ## Installation
