@@ -1,5 +1,10 @@
 # Markdown to PDF command line converter
 
+* [Pre-requisites](https://github.com/RoxaneKM/markdown-to-pdf/blob/master/README.md#pre-requisites)
+* [Installation](https://github.com/RoxaneKM/markdown-to-pdf/blob/master/README.md#installation)
+* [How to use](https://github.com/RoxaneKM/markdown-to-pdf/blob/master/README.md#how-to-use)
+* [Stylesheet](https://github.com/RoxaneKM/markdown-to-pdf/blob/master/README.md#stylesheets)
+
 ## Pre-requisites
 
 ### Pandoc 
