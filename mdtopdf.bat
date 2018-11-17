@@ -40,4 +40,4 @@ wkhtmltopdf %tmp_html_file%  %result%
 
 :: Remove temporary files
 del %tmp_html_file%
-:: del md.html
+del md.html
