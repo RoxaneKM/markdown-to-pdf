@@ -44,6 +44,12 @@ To use you own css file, add your stylesheet to the *styles* folder.
 And run this command in the terminal :
 `mdtopdf my_markdown.md result.pdf my_awesome_stylesheet.css` 
 
+## Stylesheets
+
+The current default stylesheet is gitlab.css that I did to be as close as possible to the gitlab styling. However, the stylesheet is not yet complete and will be completed soon.
+
+If you want to add a stylesheet of your own add it to the styles folder.
+
 ## Author
 
 * [RKM](https://github.com/RoxaneKM) - Initial work
