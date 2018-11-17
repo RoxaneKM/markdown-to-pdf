@@ -13,7 +13,7 @@ touch $tmp_html_file
 # Add pre html
 pre_html_part1='<html><head><meta charset="utf-8"><link rel="stylesheet" href="'
 pre_html_part2='/styles/'
-style='gitlab.css'
+style='github.css'
 
 if [ -n "$3" ]
   then

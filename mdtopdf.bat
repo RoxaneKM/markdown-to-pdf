@@ -21,7 +21,7 @@ copy NUL %tmp_html_file%
 
 :: Add pre html
 if "%~3"=="" (
-    SET style=gitlab.css
+    SET style=github.css
 ) else (
      SET style=%3
 )

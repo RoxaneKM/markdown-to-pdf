@@ -42,7 +42,7 @@ For ease of use, add path to executable (example: `D:\Scripts\markdown-to-pdf\`)
 Run in terminal: 
 `mdtopdf my_markdown.md result.pdf`  
 
-**Note:** First and second parameters are mandatory (in the example above, default css used will be gitlab style).
+**Note:** First and second parameters are mandatory (in the example above, default css used will be github style).
 
 To use you own css file, add your stylesheet to the *styles* folder. 
 
@@ -51,7 +51,7 @@ And run this command in the terminal :
 
 ## Stylesheets
 
-The current default stylesheet is gitlab.css that I did to be as close as possible to the gitlab styling. However, the stylesheet is not yet complete and will be completed soon.
+The current default stylesheet is github.css that I did to be as close as possible to the github styling. However, the stylesheet is not yet complete and will be completed soon.
 
 If you want to add a stylesheet of your own add it to the styles folder.
 
