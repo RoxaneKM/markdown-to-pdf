@@ -6,12 +6,13 @@
 
 html {
     background-color: white;
+    color: #444;
+    font-family: Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 }
 
 body {
     width: 90%; 
     padding:0.5em;
-    font-family: Ubuntu,Calibri, Tahoma;
     margin-left: auto;
     margin-right: auto;
 }
@@ -57,15 +58,21 @@ blockquote {
 }
 
 code {
-    font-size:12px;
     font-family: Consolas, "Liberation Mono", Courier, monospace;
     border-radius: 5px;
-    background-color: #f8f8f8;
-    padding:0.5em;
     margin-top:0.5em;
     margin-bottom: 0.5em;
 }
 
-pre code {
-    border: 1px solid #ccc;
+pre {
+    padding: 6px 10px;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+p code {
+    background-color: rgba(27,31,35,.05);
 }
