@@ -1,10 +1,10 @@
-/* For pdf to look identical to browser */
 @page {
   margin:0;
   padding: 0;
 }
 
 html {
+    font-size: 140%;
     background-color: white;
     color: #444;
     font-family: Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
@@ -69,13 +69,12 @@ pre {
     border-radius: 3px;
     background-color: #f8f8f8;
     border: 1px solid #ddd;
-    font-size: 13px;
-    line-height: 19px;
 }
 
 p code {
     background-color: rgba(27,31,35,.05);
 }
+
 
 /* Custom style */
 
