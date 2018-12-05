@@ -39,5 +39,5 @@ echo ^</body^>^</html^> >> %tmp_html_file%
 wkhtmltopdf %tmp_html_file%  %result%
 
 :: Remove temporary files
-:: del %tmp_html_file%
+del %tmp_html_file%
 del md.html

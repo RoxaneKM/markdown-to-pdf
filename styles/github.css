@@ -4,7 +4,7 @@
 }
 
 html {
-    font-size: 140%;
+    font-size: 125%;
     background-color: white;
     color: #444;
     font-family: Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
@@ -74,3 +74,14 @@ pre {
 p code {
     background-color: rgba(27,31,35,.05);
 }
+
+table,th,td {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding:0.5em;
+}
+
+th {text-align: center;}
