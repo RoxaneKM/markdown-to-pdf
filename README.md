@@ -57,7 +57,9 @@ To use you own custom header, add *my_awesome_header.html* in the *headers* fold
 By default, *headers/default.html* and *footers/footer.html* are used.
 
 Terminal to use custom header and footer:
-`mdtopdf my_markdown.md result.pdf my_awesome_stylesheet.css my_awesome_header.html my_awesome_footer.html`
+```
+mdtopdf my_markdown.md result.pdf my_awesome_stylesheet.css my_awesome_header.html my_awesome_footer.html
+```
 
 ## Stylesheets
 
