@@ -1,6 +1,9 @@
 # $1 -> markdown file to be converted
 # $2 -> result pdf file name 
 # $3 -> markdown styling stylesheet (if empty default will be chosen)
+# %4  -> custom html header 
+# %5  -> custom html footer
+
 
 # Get script full path
 script_full_path=$(dirname "$0")

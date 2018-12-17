@@ -4,7 +4,6 @@
 }
 
 html {
-    /*font-size: 115%;*/
     background-color: white;
     color: #444;
     font-family: Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
@@ -22,6 +21,7 @@ h1 {
 }
 
 h2 {
+    font-size:1.3em;
     margin-top:2em;
     padding-bottom:0.4em;
     border-bottom: 1px solid lightgrey;
@@ -69,6 +69,13 @@ pre {
     border-radius: 3px;
     background-color: #f8f8f8;
     border: 1px solid #ddd;
+    width:98%;
+    
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
 p code {

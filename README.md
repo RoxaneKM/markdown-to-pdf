@@ -44,16 +44,26 @@ Run in terminal:
 
 **Note:** First and second parameters are mandatory (in the example above, default css used will be github style).
 
+### How to use my custom stylesheet?
 To use you own css file, add your stylesheet to the *styles* folder. 
 
 And run this command in the terminal :
 `mdtopdf my_markdown.md result.pdf my_awesome_stylesheet.css` 
 
+### How to add my custom header and/or footer?
+
+To use you own custom header, add *my_awesome_header.html* in the *headers* folder. In the same manner, for footer just add *my_awesome_footer.html* in the *footers* folder.
+
+By default, *headers/default.html* and *footers/footer.html* are used.
+
+Terminal to use custom header and footer:
+`mdtopdf my_markdown.md result.pdf my_awesome_stylesheet.css my_awesome_header.html my_awesome_footer.html`
+
 ## Stylesheets
 
-The current default stylesheet is github.css that I did to be as close as possible to the github styling. However, the stylesheet is not yet complete and will be completed soon.
+The current default stylesheet is github.css that I did to be as close as possible to the github style. However, the stylesheet is not yet complete and will be completed soon.
 
-If you want to add a stylesheet of your own add it to the styles folder.
+If you want to add a stylesheet of your own add it to the *styles* folder.
 
 ## Author
 

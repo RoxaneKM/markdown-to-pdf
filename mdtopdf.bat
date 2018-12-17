@@ -1,7 +1,5 @@
 @echo off
 
-:: C:\Utilisateurs\RoxaneKang\AppRoaming\Microsoft
-
 :: %1  -> markdown file to be converted
 SET source=%1
 
@@ -9,6 +7,10 @@ SET source=%1
 SET result=%2
 
 :: %3  -> markdown styling stylesheet (if empty default will be chosen)
+
+:: %4  -> custom html header 
+
+:: %5  -> custom html footer
 
 :: Get script full path
 SET script_full_path=%~dp0
@@ -26,6 +28,20 @@ if "%~3"=="" (
      SET style=%3
 )
 
+:: Add header
+if "%~4"=="" (
+    SET header=%script_full_path%headers\default.html
+) else (
+     SET header=%script_full_path%headers\%4
+)
+
+:: Add footer
+if "%~5"=="" (
+    SET footer=%script_full_path%footers\default.html
+) else (
+     SET footer=%script_full_path%footers\%5
+)
+
 echo ^<html^>^<head^>^<meta charset^="utf-8"^>^<link rel^="stylesheet" href^=^'%script_full_path%styles\%style%^'^>^</head^>^<body^> >> %tmp_html_file%
 
 :: Append markdown code to temporary html file
@@ -36,7 +52,7 @@ type md.html >> %tmp_html_file%
 echo ^</body^>^</html^> >> %tmp_html_file%
 
 :: Convert html to PDF
-wkhtmltopdf %tmp_html_file%  %result%
+wkhtmltopdf --header-html %header% --footer-html %footer% %tmp_html_file% %result%
 
 :: Remove temporary files
 del %tmp_html_file%
