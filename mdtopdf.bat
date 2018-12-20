@@ -21,7 +21,7 @@ SET tmp_html_file=%source:~0,-3%_tmp.html
 echo %tmp_html_file%
 copy NUL %tmp_html_file%
 
-:: Add pre html
+:: Add css style
 if "%~3"=="" (
     SET style=github.css
 ) else (
