@@ -58,18 +58,18 @@
   }
   
   code {
-      font-family: Consolas, "Liberation Mono", Courier, monospace;
       border-radius: 5px;
       margin-top:0.5em;
       margin-bottom: 0.5em;
+      color: #c5c8c6;
   }
   
   pre {
       padding: 1em;
       border-radius: 3px;
-      background-color: #f8f8f8;
-      border: 1px solid #ddd;
-      width:98%;
+      
+      background-color: #1d1f21;
+      border: 1px solid #1d1f21;
       
       white-space: pre-wrap;       /* Since CSS 2.1 */
       white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
