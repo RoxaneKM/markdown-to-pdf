@@ -68,16 +68,16 @@ To use you own custom header, add *my_awesome_header.html* in the *headers* fold
 
 By default, *headers/default.html* and *footers/footer.html* are used.
 
-Terminal to use custom header and footer:
+Terminal command to use custom header and footer:
 ```
 mdtopdf my_markdown.md result.pdf my_awesome_stylesheet.css my_awesome_header.html my_awesome_footer.html
 ```
 
 ## Stylesheets
 
-The current default stylesheet is github.css that I did to be as close as possible to the github style. However, the stylesheet is not yet complete and will be completed soon.
+The current default stylesheet is *github.css* that I did to be as close as possible to the github style. 
 
-If you want to add a stylesheet of your own add it to the *styles* folder.
+If you want to add a stylesheet of your own add it to the *styles* folder (see instructions above).
 
 ## Author
 
