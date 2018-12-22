@@ -41,6 +41,13 @@
   
   figure {
       text-align: center;
+      margin:auto;
+  }
+
+  img {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
   }
   
   a {
@@ -83,6 +90,12 @@
     color: #c0341d;
     background-color: #fbe5e1;
   }
+
+  li code {
+    padding: 2px 4px;
+    color: #c0341d;
+    background-color: #fbe5e1;
+  }
   
   table,th,td {
       border:1px solid black;
@@ -116,3 +129,12 @@
       page-break-after: always;
   }
   
+  table {
+      width:80%;
+      margin:auto;
+  }
+
+  th,td {
+      border:1px solid grey;
+      text-align: center;
+  }

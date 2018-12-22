@@ -43,6 +43,10 @@ figure {
     text-align: center;
 }
 
+img {
+    margin:auto;
+}
+
 a {
     text-decoration:none;
     color:#0366d6;
@@ -83,6 +87,11 @@ p code {
     background-color: rgba(27,31,35,.05);
 }
 
+li code {
+    padding: 2px 4px;
+    background-color: rgba(27,31,35,.05);
+}
+
 table,th,td {
     border:1px solid black;
     border-collapse: collapse;
@@ -92,4 +101,7 @@ th,td {
     padding:0.5em;
 }
 
-th {text-align: center;}
+th {
+    background-color: #fafafa;
+    text-align: center;
+}

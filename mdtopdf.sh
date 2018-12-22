@@ -53,7 +53,6 @@ post_html='</body></html>'
 echo $post_html >> $tmp_html_file
 
 # Convert html to PDF
-# wkhtmltopdf $tmp_html_file  $2
 wkhtmltopdf --header-html $header --footer-html $footer $tmp_html_file $2
 
 # Remove temporary files
