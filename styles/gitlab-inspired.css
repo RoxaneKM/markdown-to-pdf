@@ -105,6 +105,11 @@ li {
   }
   
   th {text-align: center;}
+
+    
+  .pagebreak {
+    page-break-after: always;
+}
   
   /* Custom style */
   
@@ -112,20 +117,7 @@ li {
       text-align: center;
       margin-top:0.5em;
   }
-  
-  .header {
-      text-align: left;
-      margin-top: 2em;
-      padding-bottom: 2em;
-  }
-  
-  .footer {
-      text-align: center;
-  }
-  
-  .pagebreak {
-      page-break-after: always;
-  }
+
   
   table {
       font-size:90%;
