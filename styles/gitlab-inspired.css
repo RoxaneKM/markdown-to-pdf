@@ -31,13 +31,9 @@
       margin-top:1.5em;
   }
   
-  ol li {
-      padding-bottom: 0.4em;
-  }
-  
-  ul li {
-      padding-bottom: 0.4em;
-  }
+li {
+    padding:0;
+}
   
   figure {
       text-align: center;
@@ -89,6 +85,8 @@
     padding: 2px 4px;
     color: #c0341d;
     background-color: #fbe5e1;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
   }
 
   li code {
@@ -130,8 +128,10 @@
   }
   
   table {
+      font-size:90%;
       width:80%;
       margin:auto;
+      margin-bottom: 0.5em;
   }
 
   th,td {
