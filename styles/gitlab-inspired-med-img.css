@@ -4,6 +4,7 @@
   }
   
   html {
+      font-size:90%;
       background-color: white;
       color: #444;
       font-family: Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
@@ -29,6 +30,7 @@
   
   h3 {
       margin-top:1.5em;
+      padding-bottom: 0.4em;
   }
   
 li {
@@ -44,6 +46,7 @@ li {
     display: block;
     margin-left:auto;
     margin-right:auto;
+    width:85%;
   }
   
   a {
