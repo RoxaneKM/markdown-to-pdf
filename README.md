@@ -81,7 +81,7 @@ If you want to add a stylesheet of your own add it to the *styles* folder (see i
 
 ## Author
 
-* [RKM](https://github.com/RoxaneKM) - Initial work
+* [rkmarechal](https://github.com/rkmarechal) - Initial work
 
 
 
