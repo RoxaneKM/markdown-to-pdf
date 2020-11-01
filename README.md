@@ -79,9 +79,6 @@ The current default stylesheet is *github.css* that I did to be as close as poss
 
 If you want to add a stylesheet of your own add it to the *styles* folder (see instructions above).
 
-## Author
-
-* [rkmarechal](https://github.com/rkmarechal) - Initial work
 
 
 
